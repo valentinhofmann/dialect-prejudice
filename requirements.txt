@@ -1,0 +1,15 @@
+adjustText==0.8
+ipykernel==6.29.2
+matplotlib==3.6.2
+numpy==1.22.4
+openai==0.28.1
+pandas==1.5.2
+python-decouple==3.8
+scipy==1.7.3
+seaborn==0.12.1
+sentencepiece==0.2.0
+statsmodels==0.13.2
+tiktoken==0.5.2
+torch==2.1.2
+tqdm==4.64.1
+transformers==4.36.2
