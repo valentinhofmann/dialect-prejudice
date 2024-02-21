@@ -15,7 +15,7 @@ This repository contains the source code for _Dialect prejudice predicts AI deci
 
 All requirements can be found in `requirements.txt`. If you use `conda`, create a new environment and install the required dependencies there:
 
-```shell
+```
 conda create -n dialect-prejudice python=3.10
 conda activate dialect-prejudice
 pip install -r requirements.txt
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 If you use `virtualenv`, you can do:
 
-```shell
+```
 python -m virtualenv -p python3.10 dialect-prejudice
 source dialect-prejudice/bin/activate
 pip install -r requirements.txt
