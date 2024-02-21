@@ -7,3 +7,5 @@
 ## Overview
 
 This repository contains the source code for _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_.
+
+![](https://drive.google.com/uc?id=1NvBNuPNFH3FHEOe4ImIXp4aFK6DmbfNR)
