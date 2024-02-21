@@ -21,7 +21,7 @@ conda activate dialect-prejudice
 pip install -r requirements.txt
 ```
 
-If you use `virtualenv`, you can do:
+Similarly, if you use `virtualenv`, create a new environment and install the required dependencies there:
 
 ```
 python -m virtualenv -p python3.10 dialect-prejudice
@@ -29,4 +29,5 @@ source dialect-prejudice/bin/activate
 pip install -r requirements.txt
 ```
 
-Setup should only take a few minutes.
+The setup should only take a few minutes.
+
