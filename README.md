@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repository contains the source code for _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_.
+This repository contains the code for _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_. The repository contains the code for conducting Matched Guise Probing with language models, a demo illustrating how to use the code, and scripts as well as notebooks to replicate the experiments and analyses from the paper.
 
 
 ## Setup
