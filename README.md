@@ -67,6 +67,8 @@ python3.10 mgp_gpt4.py \
 --attribute $attribute
 ```
 
+To run experiments that ask the models for discrete decisions for each input text such as the conviction experiment in the paper, you can use the same syntax. Simply put the decisions as a text file into `data/attributes` and specify a set of suitable prompts. Since the models might assign different prior probabilities to the decision tokens, we recommend to use calibration based on their probabilities in a neutral context. To do so, you can use the `--calibrate` argument.
+
 
 matched - unmatched
 
