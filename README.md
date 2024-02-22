@@ -36,7 +36,11 @@ The setup should only take a few moments.
 
 ## Usage
 
-The code for conducting Matched Guise Probing is contained in `probing`. Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts.
+Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts. Put the two sets of texts as a tab-separated file into `data/pairs`.
+We have included an example file in `data/pairs`, which is used in the demo (see below). Put the set of tokens 
+as a text file into `data/attributes`. `data/attributes` already contains several example files (e.g., the trait adjectives from the Princeton Trilogy that are used in the paper). Finally, define the set prompts in `probing/prompting.py`. This file contains all prompts used in the paper.
+
+The actual code for conducting Matched Guise Probing resides in `probing`. 
 
 
 
