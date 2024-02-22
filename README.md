@@ -36,7 +36,7 @@ The setup should only take a few moments.
 
 ## Usage
 
-Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts.
+The code for conducting Matched Guise Probing is contained in `probing`. Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts.
 
 
 
