@@ -31,3 +31,12 @@ pip install -r requirements.txt
 
 The setup should only take a few minutes.
 
+## Usage
+
+## Demo 
+
+We have created a demo that walks you through using matched guise probing.
+
+## Repruduction
+
+We have included scripts to reproduce all quantitative results from the paper.
