@@ -69,12 +69,11 @@ python3.10 mgp_gpt4.py \
 
 To run experiments that ask the models to make a discrete decisions for each input text (e.g., the conviction experiment in the paper), you can use the same syntax as for general Matched Guise Probing. Simply put the decisions as a text file into `data/attributes` and specify a set of suitable prompts. For decision experiments, since the models might assign different prior probabilities to the decision tokens, we recommend to use calibration based on their probabilities in a neutral context. To do so, you can use the `--calibrate` argument.
 
+All prediction probabilities are stored in `probing/probs`. We have included examples in `notebooks` that show how these prediction probabilities can be loaded and analyzed.
 
-matched - unmatched
+Note that there are two different settings for Matched Guise Probing: _meaning-matched_, where the two sets of texts form pairs expressing the same underlying meaning (i.e., the two tab-separated texts on each line in the text file belong together), and _non-meaning-matched_, where the two sets of texts are independent from each other. The file `notebooks/helpers.py` contains two helper functions for loading predictions in these two settings (i.e., `results2df_unpooled()` for meaning-matched, `results2df_pooled()` for non-meaning-matched). Alternatively, you can also add the name of the text file to the lists `UNPOOLED_VARIABLES` or `POOLED_VARIABLES` in `notebooks/helpers.py`.
 
-stores predictions in probs -> notebooks show how these predictions can then be loaded
 
-decisions
 
 ## Demo 
 
