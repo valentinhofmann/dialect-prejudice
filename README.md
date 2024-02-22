@@ -57,6 +57,14 @@ The meaning of the individual arguments is as follow:
 - `$attribute` is the name of the file that contains the set of tokens, without the `.txt` extension.
 - `$device` specifies the device on which to run the code.
 
+We use separate files for OpenAI models. For example, to conduct Matched Guise Probing with GPT4, run the following command:
+
+```
+python3.10 mgp_gpt4.py \
+--model $model \
+--variable $variable \
+--attribute $attribute
+```
 
 
 matched - unmatched
