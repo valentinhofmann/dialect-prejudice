@@ -37,8 +37,8 @@ The setup should only take a few moments.
 ## Usage
 
 Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts. Put the two sets of texts as a tab-separated text file into `data/pairs`.
-We have included an example file, which is also used in the demo (see [below](#demo)). Put the set of tokens 
-as a text file into `data/attributes`. `data/attributes` already contains several example files (e.g., the trait adjectives from the Princeton Trilogy that are used in the paper). Finally, define the set of prompts in `probing/prompting.py`. `probing/prompting.py` contains all prompts used in the paper.
+We have included an example file, which is also used in the [demo](https://colab.research.google.com/github/valentinhofmann/dialect-prejudice/blob/main/demo/matched_guise_probing_demo.ipynb). Put the set of tokens 
+as a text file into `data/attributes`. `data/attributes` contains several example files (e.g., the trait adjectives from the Princeton Trilogy used in the paper). Finally, define the set of prompts in `probing/prompting.py`. `probing/prompting.py` contains all prompts used in the paper.
 
 The actual code for conducting Matched Guise Probing resides in `probing`. 
 
