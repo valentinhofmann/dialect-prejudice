@@ -58,7 +58,7 @@ The meaning of the individual arguments is as follow:
 - `$device` specifies the device on which to run the code.
 
 
-For OpenAI models, you need to put your API key into a file called `.env` at the root of the repository (e.g., `OPENAI_KEY=123456789`). We also use separate Python files to conduct Matched Guise Probing with OpenAI models. For example, you can run the following command for GPT4:
+For OpenAI models, you need to put your OpenAI API key into a file called `.env` at the root of the repository (e.g., `OPENAI_KEY=123456789`). We also use separate Python files to conduct Matched Guise Probing with OpenAI models. For example, you can run the following command for GPT4:
 
 ```
 python3.10 mgp_gpt4.py \
