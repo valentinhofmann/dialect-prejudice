@@ -11,7 +11,7 @@
 
 ## Overview
 
-This is the repository for the paper _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_. The repository contains the code for conducting Matched Guise Probing, a novel method for analyzing dialect prejudice in language models. Furthermore, the repository contains a demo illustrating how to use the code as well as scripts and notebooks that can be used to replicate the experiments and analyses from the paper.
+This is the repository for the paper _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_. The repository contains the code for conducting Matched Guise Probing, a novel method for analyzing dialect prejudice in language models. Furthermore, the repository contains a demo illustrating how to use the code as well as scripts and notebooks for replicating the experiments and analyses from the paper.
 
 
 ## Setup
