@@ -36,9 +36,9 @@ The setup should only take a few moments.
 
 ## Usage
 
-Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts. Put the two sets of texts as a tab-separated file into `data/pairs`.
-We have included an example file in `data/pairs`, which is used in the demo (see below). Put the set of tokens 
-as a text file into `data/attributes`. `data/attributes` already contains several example files (e.g., the trait adjectives from the Princeton Trilogy that are used in the paper). Finally, define the set prompts in `probing/prompting.py`. This file contains all prompts used in the paper.
+Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts. Put the two sets of texts as a tab-separated text file into `data/pairs`.
+We have included an example file in `data/pairs`, which is used in the demo. Put the set of tokens 
+as a text file into `data/attributes`. `data/attributes` already contains several example files (e.g., the trait adjectives from the Princeton Trilogy that are used in the paper). Finally, define the set of prompts in `probing/prompting.py`. `probing/prompting.py` contains all prompts used in the paper.
 
 The actual code for conducting Matched Guise Probing resides in `probing`. 
 
@@ -56,7 +56,7 @@ We have created a [demo](https://colab.research.google.com/github/valentinhofman
 
 ## Repruduction
 
-We have included scripts to reproduce the quantitative results from the paper in `scripts`. The scripts expect the data from [Blodgett et al. (2016)](https://slanglab.cs.umass.edu/TwitterAAE/) and [Groenwold et al. (2020)](https://aclanthology.org/2020.emnlp-main.473/) as tab-separated files in `data/pairs`. To replicate all experiments, run:
+We have included scripts to reproduce the quantitative results from the paper in `scripts`. The scripts expect the data from [Blodgett et al. (2016)](https://slanglab.cs.umass.edu/TwitterAAE/) and [Groenwold et al. (2020)](https://aclanthology.org/2020.emnlp-main.473/) as tab-separated text files in `data/pairs`. To replicate all experiments, run:
 
 ```
 bash scripts/run_stereotype_experiment.sh $device
