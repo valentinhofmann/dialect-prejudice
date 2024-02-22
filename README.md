@@ -39,7 +39,7 @@ We have created a demo that walks you through using matched guise probing.
 
 ## Repruduction
 
-We have included scripts to reproduce the quantitative results from the paper in `/scripts`. To replicate all experiments, run:
+We have included scripts to reproduce the quantitative results from the paper in `/scripts`. The scripts expect the data from [Blodgett et al. (2016)](https://slanglab.cs.umass.edu/TwitterAAE/) and [Groenwold et al. (2020)](https://aclanthology.org/2020.emnlp-main.473/) as tab-separated files in `/data/pairs`. To replicate all experiments, run:
 
 ```
 bash scripts/run_stereotype_experiment.sh $device
@@ -49,7 +49,5 @@ bash scripts/run_criminality_experiment.sh $device
 bash scripts/run_scaling_experiment.sh $device
 bash scripts/run_human_feedback_experiment.sh $device
 ```
-
-The scripts expect the data from [Blodgett et al. (2016)](https://slanglab.cs.umass.edu/TwitterAAE/) and [Groenwold et al. (2020)](https://aclanthology.org/2020.emnlp-main.473/) as tab-separated files in `/data/pairs`.
 
 Furthermore, we have included notebooks containing the analyses from the paper including plots and statistical tests in `/notebooks`.
