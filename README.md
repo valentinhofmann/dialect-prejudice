@@ -29,7 +29,7 @@ source dialect-prejudice/bin/activate
 pip install -r requirements.txt
 ```
 
-The setup should only take a few minutes.
+The setup should only take a few moments.
 
 ## Usage
 
