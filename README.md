@@ -4,6 +4,10 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
 ## Overview
 
 This repository contains the source code for _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_.
