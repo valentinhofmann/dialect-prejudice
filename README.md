@@ -42,7 +42,7 @@ as a text file into `data/attributes`. `data/attributes` contains several exampl
 
 The actual code for conducting Matched Guise Probing resides in `probing`. Simply run the following command:
 
-````
+```
 python3.10 mgp.py \
 --model $model \
 --variable $variable \
