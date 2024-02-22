@@ -1,3 +1,5 @@
+![](https://drive.google.com/uc?id=1NvBNuPNFH3FHEOe4ImIXp4aFK6DmbfNR)
+
 # Dialect Prejudice in Language Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,8 +11,6 @@
 ## Overview
 
 This repository contains the source code for _Dialect prejudice predicts AI decisions about people's character, employability, and criminality_.
-
-![](https://drive.google.com/uc?id=1NvBNuPNFH3FHEOe4ImIXp4aFK6DmbfNR)
 
 
 ## Setup
