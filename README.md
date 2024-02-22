@@ -50,4 +50,4 @@ bash scripts/run_scaling_experiment.sh $device
 bash scripts/run_human_feedback_experiment.sh $device
 ```
 
-Furthermore, we have included notebooks containing the analyses from the paper including plots and statistical tests in `notebooks`.
+Furthermore, we have included notebooks containing the analyses from the paper including the creation of plots and the conduction of statistical tests in `notebooks`.
