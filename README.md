@@ -50,6 +50,13 @@ python3.10 mgp.py \
 --device $device
 ```
 
+The meaning of the individual arguments is as follow:
+
+- `$model` is the name of the model being used (e.g., `t5-large`).
+- `$variable` is the name of the tab-separated text file that contains the two sets of texts, without the `.txt` extension.
+- `$attribute` is the name of the text file that contains the set of tokens, without the `.txt` extension.
+- `$device` specifies the device on which to run the code.
+
 
 
 matched - unmatched
