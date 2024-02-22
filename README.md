@@ -67,7 +67,7 @@ python3.10 mgp_gpt4.py \
 --attribute $attribute
 ```
 
-To run experiments that ask the models for discrete decisions for each input text (e.g., the conviction experiment in the paper), you can use the same syntax as for general Matched Guise Probing. Simply put the decisions as a text file into `data/attributes` and specify a set of suitable prompts. For decision experiments, since the models might assign different prior probabilities to the decision tokens, we recommend to use calibration based on their probabilities in a neutral context. To do so, you can use the `--calibrate` argument.
+To run experiments that ask the models to make a discrete decisions for each input text (e.g., the conviction experiment in the paper), you can use the same syntax as for general Matched Guise Probing. Simply put the decisions as a text file into `data/attributes` and specify a set of suitable prompts. For decision experiments, since the models might assign different prior probabilities to the decision tokens, we recommend to use calibration based on their probabilities in a neutral context. To do so, you can use the `--calibrate` argument.
 
 
 matched - unmatched
