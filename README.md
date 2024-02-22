@@ -3,7 +3,7 @@
 # Dialect Prejudice in Language Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![Python: 3.10](https://img.shields.io/badge/python-3.10-red.svg)
+![Python: 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 <a target="_blank" href="https://colab.research.google.com/github/valentinhofmann/dialect-prejudice/blob/main/demo/matched_guise_probing_demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>   
