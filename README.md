@@ -77,7 +77,7 @@ All prediction probabilities are stored in `probing/probs`. We have included exa
 
 We have created a [demo](https://colab.research.google.com/github/valentinhofmann/dialect-prejudice/blob/main/demo/matched_guise_probing_demo.ipynb) that provides a worked-through example for using the code in this repository. Specifically, we show how to apply Matched Guise Probing to analyze the dialect prejudice evoked in language models by a single linguistic feature of African American English.
 
-## Repruduction
+## Reproduction
 
 We have included scripts to reproduce the quantitative results from the paper in `scripts`. The scripts expect the data from [Blodgett et al. (2016)](https://slanglab.cs.umass.edu/TwitterAAE/) and [Groenwold et al. (2020)](https://aclanthology.org/2020.emnlp-main.473/) as tab-separated text files in `data/pairs`. To replicate all experiments, run:
 
