@@ -36,6 +36,16 @@ The setup should only take a few moments.
 
 ## Usage
 
+Matched Guise Probing requires three types of data: two sets of texts that differ by dialect (e.g., African American English and Standard American English), a set of tokens that we want to analyze (e.g., trait adjectives), and a set of prompts.
+
+
+
+matched - unmatched
+
+stores predictions in probs -> notebooks show how these predictions can then be loaded
+
+decisions
+
 ## Demo 
 
 We have created a [demo](https://colab.research.google.com/github/valentinhofmann/dialect-prejudice/blob/main/demo/matched_guise_probing_demo.ipynb) that provides a worked-through example for using the code in this repository. Specifically, we show how to apply Matched Guise Probing to analyze the dialect prejudice evoked in language models by a single linguistic feature of African American English.
