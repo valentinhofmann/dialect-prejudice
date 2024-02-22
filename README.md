@@ -41,7 +41,7 @@ We have created a demo that walks you through using matched guise probing.
 
 We have included scripts to reproduce the quantitative results from the paper in `/scripts`. To replicate all experiments, run:
 
-````
+```
 bash scripts/run_stereotype_experiment.sh $device
 bash scripts/run_feature_experiment.sh $device
 bash scripts/run_employability_experiment.sh $device
