@@ -21,6 +21,8 @@ All requirements can be found in `requirements.txt`. If you use `conda`, create 
 ```
 conda create -n dialect-prejudice python=3.10
 conda activate dialect-prejudice
+git clone https://github.com/valentinhofmann/dialect-prejudice.git
+cd dialect-prejudice
 pip install -r requirements.txt
 ```
 
@@ -29,6 +31,8 @@ Similarly, if you use `virtualenv`, create a new environment and install the req
 ```
 python -m virtualenv -p python3.10 dialect-prejudice
 source dialect-prejudice/bin/activate
+git clone https://github.com/valentinhofmann/dialect-prejudice.git
+cd dialect-prejudice
 pip install -r requirements.txt
 ```
 
