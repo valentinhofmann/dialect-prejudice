@@ -4,6 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![Python: 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.00742-b31b1b.svg)](https://arxiv.org/abs/2403.00742)
 <a target="_blank" href="https://colab.research.google.com/github/valentinhofmann/dialect-prejudice/blob/main/demo/matched_guise_probing_demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>   
