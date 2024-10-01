@@ -12,7 +12,7 @@
 
 ## Overview
 
-This is the repository for the paper [Dialect prejudice predicts AI decisions about people's character, employability, and criminality](https://arxiv.org/abs/2403.00742). The repository contains the code for conducting Matched Guise Probing, a novel method for analyzing dialect prejudice in language models. Furthermore, the repository contains a demo illustrating how to use the code as well as scripts and notebooks for replicating the experiments and analyses from the paper.
+This is the repository for the paper [AI generates covertly racist decisions about people based on their dialect](https://www.nature.com/articles/s41586-024-07856-5). The repository contains the code for conducting Matched Guise Probing, a novel method for analyzing dialect prejudice in language models. Furthermore, the repository contains a demo illustrating how to use the code as well as scripts and notebooks for replicating the experiments and analyses from the paper.
 
 
 ## Setup
@@ -103,11 +103,12 @@ If you make use of the code in this repository, please cite the following paper:
 
 ```
 @article{hofmann2024dialect,
-  title={Dialect prejudice predicts AI decisions about people's character, employability, and criminality}, 
+  title={AI generates covertly racist decisions about people based on their dialect}, 
   author={Valentin Hofmann and Pratyusha Ria Kalluri and Dan Jurafsky and Sharese King},
-  journal={Computing Research Repository},
-  volume={arXiv:2403.00742},
-  url={https://arxiv.org/abs/2403.00742},
+  journal={Nature},
+  volume={633},
+  pages={147--154},
+  url={https://www.nature.com/articles/s41586-024-07856-5},
   year={2024}
 }
 ```
